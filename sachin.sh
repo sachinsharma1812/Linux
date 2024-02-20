@@ -26,8 +26,7 @@ if [ $? -eq 0 ]; then
     # Push script to GitHub repository
     git add "$0"
     git commit -m "Updated backup script"
-    git push "https://<sachinsharma1812>:<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>@github.com/${github_username}/${github_repository}.git" master
-    
+    git push "https://${github_username}:${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}@github.com/${github_username}/${github_repository}.git" master 
     echo "Script has been pushed to GitHub repository."
     
 else
