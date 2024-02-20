@@ -8,7 +8,7 @@ notification_email="sachinsharma75012@gmail.com"             # Specify your emai
 aws_region="ap-south-1"                            # Specify your AWS region
 sns_topic_arn="arn:aws:sns:ap-south-1:082459098973:Github-Mail"                      # Specify your SNS topic ARN
 github_username="sachinsharma1812"                  # Specify your GitHub username
-github_repository="https://github.com/sachinsharma1812/Linux"              # Specify your GitHub repository name
+github_repository="https://github.com/sachinsharma1812/Linux.git"              # Specify your GitHub repository name
 
 # Create backup directory if it doesn't exist
 mkdir -p "$destination_directory"
