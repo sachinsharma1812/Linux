@@ -1,0 +1,15 @@
+#!/bin/bash
+set -x
+# Configuration
+source_directories="/etc/ssh"  # Add your source directories here
+destination_directory="/home/backup"                 # Specify the destination directory
+backup_filename="backup_$(date +'%Y%m%d_%H%M%S').tar.gz" # Define the backup filename
+notification_email="sachinsharma75012@gmail.com"             # Specify your email address for notifications
+aws_region="ap-south-1"                            # Specify your AWS region
+sns_topic_arn="arn:aws:sns:ap-south-1:082459098973:Github-Mail"                      # Specify your SNS topic ARN
+github_username="sachinsharma1812"                  # Specify your GitHub username
+github_repository="Linux"              # Specify your GitHub repository name
+
+# Create backup directory if it d
+    # Push script to GitHub repository
+    git add "$0"
